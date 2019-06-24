@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+#title{
+    background-color: green;
+    color: white;
+    width: 450px;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid;
+    padding: 10px;
+    margin: 20px;
+    font-family: "Ruslan", cursive;
+}
+
+#game-instructions{
+    background-color: green;
+    color: white;
+    width: 450px;
+    height: auto;
+    font-weight: bold;
+    text-align: left;
+    border: 5px solid;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#goalsScored{
+    background-color:#e911c5;
+    color: white;
+    width: 200px;
+    height: 114px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid;
+    padding: 10px;
+    margin: 20px 0 20px 20px;
+    font-family: "Ruslan", cursive; 
+}
+
+#soccerScores{
+    background-color: royalblue;
+    color: white;
+    width: 230px;
+    height: 114px;
+    text-align: left;
+    border: 5px solid;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    font-family:"Ruslan", cursive; 
+}
+
+#shotsOnTarget{
+    color: white;
+    margin: 10px 0 0 10px;
+    font-size: 24px;
+    font-family: "Ruslan", cursive;
+}
+
+#shots{
+    background-color: royalblue;
+    color: white;
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    border: 5px solid;
+    padding: 10px;
+    margin: 5px 0 20px 5px;
+    font-family: "Ruslan", cursive; 
+    text-align: center;
+}
+
+#buttons-div{
+    margin-left: 5px;
+}

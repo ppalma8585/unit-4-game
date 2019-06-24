@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrinkhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" type= "text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrinkhand&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Soccer Goalscorers</title>    
+</head>
+<body background = "assets/images/soccerBallBackground.jpg">
+    <div class="row">
+        <div class="col-md-4" id="title">
+        <h2> Soccer Goalscorer</h2>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-4" id="game-instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four soccer balls below. By clickling on a soccer ball you will add a specific amount of points to
+                your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.</p>
+        <p>The value of each soccer ball is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each soccer ball.</p>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1" id="goalsScored"></div>
+        <div class="col-md-2" id="soccerScores"></div>
+    
+    <div id="wins"></div>
+    <div id="losses"></div>
+    <div id="goals-missed"></div>
+    </div>
+</div>
+    
+<div class="row">
+    <div id="buttons-div" class="col-md-5">
+     <button class="ball">
+        <img src="assets/images/redSoccerBall.png" id=random-Ball1 alt="redSoccerBall">
+    </button>
+        
+    <button class="ball">
+        <img src="assets/images/purpleSoccerBall.png" id=random-Ball2 alt="PurpleSoccerBall">
+    </button>
+                
+    <button class="ball">
+        <img src="assets/images/greenSoccerBall.png" id=random-Ball3 alt="greenSoccerBall">
+    </button>
+    
+    <button class="ball">
+        <img src="assets/images/blueSoccerBall.png" id=random-Ball4 alt="blueSoccerBall">
+    </button>
+</div></div>
+<div id="shotsOnTarget">Goals Scored</div>
+<div id="shots"></div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min/js"></script>
+</body>
+
+
+
+    
+</html>
